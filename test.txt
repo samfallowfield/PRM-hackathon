@@ -1,0 +1,15 @@
+Dr.W.C. Futbol & Associates - Confidence Score:  99% 
+1 ESPN Drive - Confidence Score:  100% 
+Bristol, CT 06489 - Confidence Score:  100% 
+PHONE: 631-867-5309 - Confidence Score:  100% 
+PATIENT NAME - Confidence Score:  100% 
+DATE PRESCRIBED - Confidence Score:  100% 
+PATIENT ADDRESS - Confidence Score:  100% 
+Rx Patient OVERDOSED on patriotism - Confidence Score:  93% 
+ WARNING : Confidence score is less than 90%, Please review this line :  + Freedom Must paint face red,
+ WARNING : Confidence score is less than 90%, Please review this line :  White, + Dive, chant "USA!!!"
+Refills - Confidence Score:  100% 
+Label - Confidence Score:  99% 
+ WARNING : Confidence score is less than 90%, Please review this line :  Recommended Fist pump.
+GENERIC SUBSTITUTION - Confidence Score:  99% 
+DISPENSE AS WRITTEN Signature - Confidence Score:  98% 
