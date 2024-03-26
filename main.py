@@ -14,11 +14,14 @@ def extract_text_from_image(image_path):
     extracted_text = ''
     for item in response['Blocks']:
         if item['BlockType'] == 'LINE':
-            extracted_text += item['Text'] + '\n'
-            print(item['Confidence'])
+            if item['Confidence'] > 90:
+                extracted_text += item['Text'] + ' - Confidence Score:  ' + str(round(item['Confidence'])) + '% \n'
+            else:
+                extracted_text += ' WARNING : Confidence score is less than 90%, Please review this line :  ' + item[
+                    'Text'] + '\n'
     return extracted_text
 
 
-image_path = 'images/gp_note4.png'
+image_path = 'images/gp_note5.png'
 final_extracted_text = extract_text_from_image(image_path)
 print(final_extracted_text)
