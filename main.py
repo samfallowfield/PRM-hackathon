@@ -10,6 +10,7 @@ def extract_text_from_image(image_path):
 
     # call textract
     response = textract_client.detect_document_text(Document={'Bytes': image_bytes})
+    print(response)
 
     extracted_text = ''
     for item in response['Blocks']:
@@ -19,6 +20,6 @@ def extract_text_from_image(image_path):
     return extracted_text
 
 
-image_path = 'images/gp_note1.png'
+image_path = 'images/gp_note2.png'
 final_extracted_text = extract_text_from_image(image_path)
 print(final_extracted_text)
